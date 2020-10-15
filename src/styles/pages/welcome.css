@@ -1,0 +1,86 @@
+#page-welcome {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(217, 112, 3);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 112, 3, 0.6292892156862745) 31%,
+    rgba(255, 61, 0, 0.5172443977591037) 95%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#page-welcome .content-wrapper {
+  position: relative;
+
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("../../images/hamburger.svg") no-repeat 100% 0%;
+  background-size: 50%;
+}
+
+#page-welcome .content-wrapper main {
+  max-width: 350px;
+}
+
+#page-welcome .content-wrapper main h1 {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+#page-welcome .content-wrapper main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.content-wrapper .date {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  font-size: 24px;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.content-wrapper .date strong {
+  font-weight: 800;
+}
+
+.content-wrapper .enter-app {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 80px;
+  height: 80px;
+  background: #ffe866ca;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover {
+  background: rgba(255, 60, 0, 0.274);
+}

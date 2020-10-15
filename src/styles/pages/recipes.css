@@ -1,0 +1,83 @@
+#page-recipes {
+  width: 100vw;
+  height: 100vh;
+
+  flex-wrap: wrap;
+  position: relative;
+  display: flex;
+  overflow: auto;
+}
+
+#page-recipes .cardDiv {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  max-width: 55%;
+  min-width: 200px;
+  flex-wrap: wrap;
+  left: 500px;
+}
+
+#page-recipes aside {
+  width: 440px;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(217, 112, 3, 0.6292892156862745) 31%,
+    rgba(255, 61, 0, 0.5172443977591037) 95%
+  );
+
+  position: fixed;
+  padding: 80px;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#page-recipes aside h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 42px;
+  margin-top: 64px;
+}
+
+#page-recipes aside p {
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+#page-recipes aside footer {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 24px;
+}
+
+#page-recipes aside footer strong {
+  font-weight: 800;
+}
+
+#page-recipes .create-recipe {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+
+  z-index: 10;
+
+  width: 64px;
+  height: 64px;
+  background: rgba(217, 112, 3, 0.6292892156862745);
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+#page-recipes .create-recipe:hover {
+  background: rgba(217, 167, 3, 0.629);
+}
