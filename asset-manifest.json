@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/recipApp/static/css/main.18fa1cd8.chunk.css",
-    "main.js": "/recipApp/static/js/main.7eb2949e.chunk.js",
-    "main.js.map": "/recipApp/static/js/main.7eb2949e.chunk.js.map",
+    "main.js": "/recipApp/static/js/main.f26b4496.chunk.js",
+    "main.js.map": "/recipApp/static/js/main.f26b4496.chunk.js.map",
     "runtime-main.js": "/recipApp/static/js/runtime-main.87b9dcf8.js",
     "runtime-main.js.map": "/recipApp/static/js/runtime-main.87b9dcf8.js.map",
     "static/js/2.abc86158.chunk.js": "/recipApp/static/js/2.abc86158.chunk.js",
     "static/js/2.abc86158.chunk.js.map": "/recipApp/static/js/2.abc86158.chunk.js.map",
     "index.html": "/recipApp/index.html",
-    "precache-manifest.23786d44a9ed4de444ab383617783cfc.js": "/recipApp/precache-manifest.23786d44a9ed4de444ab383617783cfc.js",
+    "precache-manifest.70c971259ca5c814641e6e05e929c5ed.js": "/recipApp/precache-manifest.70c971259ca5c814641e6e05e929c5ed.js",
     "service-worker.js": "/recipApp/service-worker.js",
     "static/css/main.18fa1cd8.chunk.css.map": "/recipApp/static/css/main.18fa1cd8.chunk.css.map",
     "static/js/2.abc86158.chunk.js.LICENSE.txt": "/recipApp/static/js/2.abc86158.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.87b9dcf8.js",
     "static/js/2.abc86158.chunk.js",
     "static/css/main.18fa1cd8.chunk.css",
-    "static/js/main.7eb2949e.chunk.js"
+    "static/js/main.f26b4496.chunk.js"
   ]
 }
