@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/recipApp/static/css/main.18fa1cd8.chunk.css",
+    "main.js": "/recipApp/static/js/main.7eb2949e.chunk.js",
+    "main.js.map": "/recipApp/static/js/main.7eb2949e.chunk.js.map",
+    "runtime-main.js": "/recipApp/static/js/runtime-main.87b9dcf8.js",
+    "runtime-main.js.map": "/recipApp/static/js/runtime-main.87b9dcf8.js.map",
+    "static/js/2.abc86158.chunk.js": "/recipApp/static/js/2.abc86158.chunk.js",
+    "static/js/2.abc86158.chunk.js.map": "/recipApp/static/js/2.abc86158.chunk.js.map",
+    "index.html": "/recipApp/index.html",
+    "precache-manifest.23786d44a9ed4de444ab383617783cfc.js": "/recipApp/precache-manifest.23786d44a9ed4de444ab383617783cfc.js",
+    "service-worker.js": "/recipApp/service-worker.js",
+    "static/css/main.18fa1cd8.chunk.css.map": "/recipApp/static/css/main.18fa1cd8.chunk.css.map",
+    "static/js/2.abc86158.chunk.js.LICENSE.txt": "/recipApp/static/js/2.abc86158.chunk.js.LICENSE.txt",
+    "static/media/welcome.css": "/recipApp/static/media/hamburger.5159a831.svg",
+    "static/media/macarrao.jpg": "/recipApp/static/media/macarrao.69b6de54.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87b9dcf8.js",
+    "static/js/2.abc86158.chunk.js",
+    "static/css/main.18fa1cd8.chunk.css",
+    "static/js/main.7eb2949e.chunk.js"
+  ]
+}
