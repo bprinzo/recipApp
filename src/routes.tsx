@@ -4,11 +4,11 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import Recipes from "./pages/Recipes";
 import RecipeDetails from "./pages/RecipeDetail";
-import Macarrao from "./pages/Macarrao"
+import Macarrao from "./pages/Macarrao";
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={Welcome} />
         <Route path="/recipes" exact component={Recipes} />
